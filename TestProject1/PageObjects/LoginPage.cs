@@ -13,9 +13,9 @@ namespace TestProject1.PageObjects
         }
 
         // Web elements
-        private IWebElement UsernameField => driver.FindElement(By.Id("username"));
-        private IWebElement PasswordField => driver.FindElement(By.Id("password"));
-        private IWebElement LoginButton => driver.FindElement(By.Id("login"));
+        private IWebElement UsernameField => driver.FindElement(By.Id("Username"));
+        private IWebElement PasswordField => driver.FindElement(By.Id("login-password"));
+        private IWebElement LoginButton => driver.FindElement(By.Id("btnlogin"));
 
         // Actions
         public void EnterUsername(string username)
